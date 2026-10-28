@@ -1,1 +1,64 @@
-first commit
+<div align="center">
+
+  <img src="https://www.interviewbuddy.space/icon.png" alt="Interview Buddy Logo" width="88" height="88" style="border-radius: 18px; box-shadow: 0 8px 24px rgba(255, 107, 53, 0.35);" />
+
+  # Interview Buddy — Official Releases & Downloads
+
+  **The #1 Invisible, Real-Time AI Copilot for Live Job Interviews**  
+  *Listen, transcribe, and stream structured answers in real-time on Zoom, Microsoft Teams, Google Meet & Webex.*
+
+  <br/>
+
+  [![Latest Release](https://img.shields.io/github/v/release/ganesh-code/InterviewBuddy-Releases?color=ff6b35&label=Latest%20Version&style=for-the-badge&logo=github)](https://github.com/ganesh-code/InterviewBuddy-Releases/releases/latest)
+  [![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-0284c7?style=for-the-badge&logo=apple)](https://github.com/ganesh-code/InterviewBuddy-Releases/releases/latest)
+  [![License](https://img.shields.io/badge/License-Proprietary-64748b?style=for-the-badge)](https://www.interviewbuddy.space)
+  [![Website](https://img.shields.io/badge/Website-interviewbuddy.space-10b981?style=for-the-badge&logo=safari)](https://www.interviewbuddy.space)
+
+</div>
+
+---
+
+## ⚡ Direct Downloads (Always Points to Latest Release)
+
+These permanent links automatically resolve to the newest release binaries without needing manual URL edits for future versions:
+
+| Platform | Architecture | File Format | Direct Download Link |
+| :--- | :--- | :--- | :--- |
+| **🍎 macOS** | Apple Silicon (M1/M2/M3/M4) & Intel x64 | `.dmg` | [**Download for macOS (Universal DMG)**](https://github.com/ganesh-code/InterviewBuddy-Releases/releases/latest/download/Interview-Buddy.dmg) |
+| **🪟 Windows** | Windows 10 & Windows 11 (64-bit) | `.exe` | [**Download for Windows (Installer)**](https://github.com/ganesh-code/InterviewBuddy-Releases/releases/latest/download/Interview-Buddy-Setup.exe) |
+
+> 📌 **Looking for older releases or changelogs?** View the [Complete Release History](https://github.com/ganesh-code/InterviewBuddy-Releases/releases).
+
+---
+
+## 🚀 Key Capabilities
+
+- **🛡️ 100% Invisible to Screen Sharing**: Hardware-level screen protection (`setContentProtection`) ensures your AI overlay never appears in Zoom, Teams, Google Meet, or Webex screenshares or recordings.
+- **🎧 Real-Time System Audio Loopback**: Transcribes interviewer speech directly from internal system audio with ultra-low latency (<200ms) using Deepgram Nova-2 models.
+- **🧠 Frontier AI Reasoning**: Context-aware answers powered by OpenAI GPT-4o, Anthropic Claude 3.5 Sonnet, and Google Gemini 1.5 Pro.
+- **📄 Resume & Job Description Context**: Pre-load your resume and target JD so responses directly reference your actual accomplishments and stack.
+- **🎙️ Flexible Capture Modes**: Use **Auto Mode** (continuous detection) or **Push-to-Talk (PTT)** with customizable hotkeys (`Option`, `Space`, or `Control`).
+- **🔗 Production Web-to-Desktop Relay**: Built-in deep linking (`interviewbuddy://auth/callback`) for instant email confirmation and password resets.
+
+---
+
+## 💻 Installation & Setup
+
+### 🍎 macOS Installation
+
+1. Download [`Interview-Buddy.dmg`](https://github.com/ganesh-code/InterviewBuddy-Releases/releases/latest/download/Interview-Buddy.dmg).
+2. Open the `.dmg` file and drag **Interview Buddy** into your **Applications** folder.
+3. Open **Interview Buddy** from Applications or Spotlight.
+
+<details>
+<summary><b>⚠️ macOS Gatekeeper / "App is Damaged" Warning? (Click to expand)</b></summary>
+<br/>
+
+Because the app is distributed directly outside the Mac App Store, macOS Gatekeeper may show:  
+*"Interview Buddy is damaged and can't be opened"* or *"Cannot be opened because the developer cannot be verified"*.
+
+**To resolve this in 5 seconds:**
+1. Open your Mac **Terminal** (`Cmd + Space` → type `Terminal`).
+2. Paste this command and press Enter:
+   ```bash
+   xattr -cr /Applications/Interview\ Buddy.app
